@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+[package]
+name = "atif-repeated-user-step-repro"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+nemo-relay = { path = "../../crates/core", default-features = false }
+serde_json = "1"
+
+[workspace]
